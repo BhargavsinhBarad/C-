@@ -19,9 +19,9 @@ class y : public x{
 		}
 		void getdata()
 		{
-			cout << "A : " << a << endl
-				 << "B : " << b << endl
-				 << "C : " << c << endl;
+			cout << "A : " << a*a*a << endl
+				 << "B : " << b*b*b << endl
+				 << "C : " << c*c*c << endl;
 		}
 };
 
