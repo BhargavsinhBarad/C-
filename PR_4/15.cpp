@@ -27,9 +27,9 @@ class B {
 };
 
 
-int add(A a, B b){
+int add(A a1, B b1){
 	int sum;
-	sum = A.a + B.b;
+	sum = a1.a + b1.b;
     cout << "SUM : " << sum  ;
 }
 
@@ -42,4 +42,3 @@ int main() {
     
     add(a,b); 
 }
-
