@@ -11,18 +11,19 @@ class distancs{
 			cout << "Enter Feet : ";
 			cin >> feet;
 			cout << "Enter Inch : ";
-			cin << inch;
+			cin >> inch;
 		}
 		distancs operator+(distancs d)
 		{
 			distancs a;
-			a.feet= feet +d.feet;
-			a.inch= inch +d.inch;
-			while(a.inch <= 12)
+			a.feet= feet + d.feet;
+			a.inch= inch + d.inch;
+			while(a.inch >= 12)
 			{
 				a.inch-=12;
 				a.feet++;
 			}
+			return a;
 		}
 		void getdata()
 		{
